@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.289" errors="1" skipped="0" tests="1" name="TestGetAnswer">
+  <properties>
+    <property name="idea.version" value="2016.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\survey"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="D:\SYSTEM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\Program Files\IntelliJ IDEA\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\maven\bin;D:\Program Files\Mysql\bin;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\sukey\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="E:\maven repository"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\sukey"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="D:\Program Files\IntelliJ IDEA\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sukey"/>
+    <property name="java.class.path" value="D:\Program Files\IntelliJ IDEA\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;D:\Program Files\IntelliJ IDEA\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.1 -s D:\Program Files\maven\conf\settings.xml -Dmaven.repo.local=E:\maven repository package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\IntelliJ IDEA\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="2.211" classname="TestGetAnswer" name="findAnswer">
+    <error message="No Session found for current thread" type="org.hibernate.HibernateException">org.hibernate.HibernateException: No Session found for current thread
+	at org.springframework.orm.hibernate4.SpringSessionContext.currentSession(SpringSessionContext.java:97)
+	at org.hibernate.internal.SessionFactoryImpl.getCurrentSession(SessionFactoryImpl.java:988)
+	at com.web.dao.SurveyDao.findAnswerByOpenid(SurveyDao.java:47)
+	at com.web.service.SurveyService.findAnswerByOpenid(SurveyService.java:63)
+	at TestGetAnswer.findAnswer(TestGetAnswer.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-out>2016/07/11 14:16:39 OSS INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27f7c6e1: startup date [Mon Jul 11 14:16:39 CST 2016]; root of context hierarchy
+2016/07/11 14:16:39 OSS INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2016/07/11 14:16:39 OSS INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-common.xml]
+2016/07/11 14:16:39 OSS INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@478bacbf: defining beans [surveyController,testController,wechatConnectController,wechatController,questionDao,surveyDao,coreService,surveyService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,viewResolver,dataSource,sessionFactory,transactionManager,transactionProxy,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2016/07/11 14:16:40 OSS INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.5.Final}
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000228: Running hbm2ddl schema update
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000102: Fetching database metadata
+2016/07/11 14:16:40 OSS INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000396: Updating schema
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000261: Table found: survey.answer
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000037: Columns: [createtime, id, answer, openid, question]
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000108: Foreign keys: []
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000126: Indexes: [primary]
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000261: Table found: survey.schedule
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000037: Columns: [createtime, id, updatetime, money, openid, step, ip]
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000108: Foreign keys: []
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000126: Indexes: [primary, openid]
+2016/07/11 14:16:41 OSS INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000232: Schema update complete
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[//save_answer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.SurveyController.save_answer(javax.servlet.http.HttpServletRequest)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[//questionnaire],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.SurveyController.questionnaire(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[//redpack],methods=[POST],params=[],headers=[],consumes=[],produces=[text/html;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.web.controller.SurveyController.redpack(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/test/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.TestController.test()
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/test/import],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public void com.web.controller.TestController.importData()
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/connect/api],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.WechatConnectController.connectInterface(com.web.entity.WeChat)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/connect/api],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.WechatConnectController.getWeiXinMessage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/wechat/authorize],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.WechatController.authorize(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/wechat/login/{refer_url}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.WechatController.login(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped &quot;{[/wechat/getWeiXinJsConf],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.web.controller.WechatController.getWeiXinJsConf(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/js/**] onto handler &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0&apos;
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/images/**] onto handler &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1&apos;
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/fonts/**] onto handler &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2&apos;
+2016/07/11 14:16:41 OSS INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/css/**] onto handler &apos;org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3&apos;
+2016/07/11 14:16:41 OSS INFO  [org.springframework.orm.hibernate4.HibernateTransactionManager] - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@4d33d2a1] of Hibernate SessionFactory for HibernateTransactionManager
+</system-out>
+  </testcase>
+</testsuite>
